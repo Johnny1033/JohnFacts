@@ -1,0 +1,304 @@
+{
+    "fortunes": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "1"
+                    },
+                    "fortune": {
+                        "S": "When John works on cloud security, even the clouds in the sky start encrypting their data."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "2"
+                    },
+                    "fortune": {
+                        "S": "John once responded to a cyber attack so quickly that the hacker's computer caught on fire."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "3"
+                    },
+                    "fortune": {
+                        "S": "John doesn't need a password manager; he just looks at the screen and the computer logs him in."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "4"
+                    },
+                    "fortune": {
+                        "S": "John's AI models are so advanced that they've developed an inferiority complex."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "5"
+                    },
+                    "fortune": {
+                        "S": "John's security skills are so strong that even quantum computers need to ask his permission before attempting to decrypt anything."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "6"
+                    },
+                    "fortune": {
+                        "S": "John doesn't need to analyze threat landscapes; the threats analyze him and decide to change careers."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "7"
+                    },
+                    "fortune": {
+                        "S": "When John worked as a financial advisor, he protected his clients' investments so well that even market crashes asked for his permission."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "8"
+                    },
+                    "fortune": {
+                        "S": "John's phishing skills are so masterful, he once phished the entire company in a red team exercise using ChatGPT and Dall-E 2."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "9"
+                    },
+                    "fortune": {
+                        "S": "John once trained an AI model so well that it started giving him advice on how to improve its own security."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "10"
+                    },
+                    "fortune": {
+                        "S": "John doesn't deploy security measures; he just walks into the server room and the threats run away."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "11"
+                    },
+                    "fortune": {
+                        "S": "John's incident response time is so fast that cybersecurity threats file complaints about not having enough time to cause any damage."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "12"
+                    },
+                    "fortune": {
+                        "S": "When John designs threat models, even theoretical vulnerabilities get scared and disappear."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "13"
+                    },
+                    "fortune": {
+                        "S": "John doesn't need a VPN; the internet automatically creates a secure, encrypted tunnel for him."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "14"
+                    },
+                    "fortune": {
+                        "S": "John's security frameworks are so comprehensive that cybercriminals have started using them as a syllabus for their training courses."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "15"
+                    },
+                    "fortune": {
+                        "S": "John once architected a security system so robust that it started providing security consulting services to other organizations."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "16"
+                    },
+                    "fortune": {
+                        "S": "John's knowledge of AWS is so extensive that even Amazon calls him for technical support."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "17"
+                    },
+                    "fortune": {
+                        "S": "When John joined the Army, even the most advanced enemy encryption technologies began waving white flags."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "18"
+                    },
+                    "fortune": {
+                        "S": "John's security assessments are so thorough that vulnerabilities start fixing themselves before he even submits his report."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "19"
+                    },
+                    "fortune": {
+                        "S": "John's machine learning algorithms are so powerful that they've started to teach him new cybersecurity techniques."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "20"
+                    },
+                    "fortune": {
+                        "S": "John can secure a network just by thinking about it; firewalls and intrusion detection systems are merely his backup plan."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "21"
+                    },
+                    "fortune": {
+                        "S": "When John sets up a secure cloud architecture, even the most skilled hackers decide to take up gardening instead."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "22"
+                    },
+                    "fortune": {
+                        "S": "John's cyber defense strategies are so strong that even artificial intelligence bows down to his natural intelligence."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "23"
+                    },
+                    "fortune": {
+                        "S": "When John works on a cybersecurity project, hackers consider it a professional achievement to be mentioned in one of his threat models."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "24"
+                    },
+                    "fortune": {
+                        "S": "John doesn't need two-factor authentication; his mere presence is enough to deter unauthorized access."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "fort_id": {
+                        "N": "25"
+                    },
+                    "fortune": {
+                        "S": "When John speaks about cybersecurity, even the most notorious cybercriminals stop to take notes."
+                    }
+                }
+            }
+        }
+    ]
+}

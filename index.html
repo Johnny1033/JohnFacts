@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mi nombre es Juan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script>
+      function myFunction() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("my-demo").innerHTML = this.responseText;
+          }
+        };
+        xhttp.open("GET", "https://6d3wu8146l.execute-api.us-east-1.amazonaws.com/default/fortuneLambda-MyLambdaFunction-wADvWlcz5yhF", true);
+        xhttp.send();
+      }
+    </script>
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul>
+        <li><a href="projects.html">JohnFacts Architecture</a></li>
+        <li><a href="https://www.mealentropy.com">Meal Entropy</a></li>
+        <li><a href="https://github.com/Johnny1033">John's GitHub</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <button class="btn" onclick="myFunction()">Learn a fact about John</button>
+      <h1><span id="my-demo">Ready for a JohnFact?</span></h1>
+    </div>
+    <footer>
+      <div class="contact-info">
+        <p><a href="mailto:redirecttojohn@gmail.com">redirecttojohn@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/johnamessinger/">John's LinkedIn</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

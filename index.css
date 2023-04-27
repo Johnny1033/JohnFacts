@@ -1,0 +1,147 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url('https://s3.amazonaws.com/johnmessinger.io/me.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 800px;
+  padding: 50px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: fadeInMove 1.5s ease forwards;
+}
+
+@keyframes fadeInMove {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #003366;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  background-image: linear-gradient(45deg, #0066cc, #0052a3);
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background-image 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-image: linear-gradient(45deg, #0052a3, #0066cc);
+  transform: scale(1.05);
+}
+
+.contact-info {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #003366;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  padding-left: 25px;
+  color: #003366;
+  text-align: center;
+}
+
+.contact-info a {
+  color: #003366;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.contact-info a:hover {
+  color: #0052a3;
+}
+
+.contact-info p {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#my-demo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  color: #003366;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.projects-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-list li {
+  margin-right: 20px;
+}
+
+.navigation {
+  width: 100%;
+  background-color: rgba(0, 51, 102, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navigation li {
+  margin: 0 10px;
+}
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navigation a:hover {
+  color: #0052a3;
+}
